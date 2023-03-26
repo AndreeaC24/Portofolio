@@ -7,15 +7,14 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+    line-height: 10px;
     gap: 24px;
     &--second-subtitle {
       font-weight: 500;
       font-size: 26px;
-      margin: 0;
       &-subtitle2 {
         font-weight: 500;
         font-size: 20px;
-        margin: 0;
       }
     }
   }
