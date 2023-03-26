@@ -2,10 +2,12 @@
 .blog {
   &__section {
     background-color: var(--white-color);
+    margin-top: 63px;
+    margin-bottom:58px;
   }
   &__title {
     @include section_title;
-    margin: 24px auto 18px 50px;
+    margin: 0 auto 18px 30px;
   }
   &__list {
     @include column-flex;
@@ -61,7 +63,7 @@
     &__list {
       justify-content: flex-start;
       align-items: flex-start;
-      padding-bottom: 53px;
+      // padding-bottom: 53px;
       gap: 32px;
       &__item {
         @include column-flex;
