@@ -7,7 +7,7 @@
   }
   &__title {
     @include section_title;
-    margin: 0 auto 18px 0;
+    margin: 0 auto 18px 30px;
   }
   &__list {
     @include column-flex;
