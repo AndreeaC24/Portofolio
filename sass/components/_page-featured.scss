@@ -32,6 +32,7 @@
     }
     &__item {
       @include column-flex;
+      flex-wrap: wrap;
       @extend %border;
       align-items: center;
       gap: 17px;
@@ -84,7 +85,7 @@
         color: #8695a4;
       }
       &--msg {
-        width: 339px;
+        max-width: 339px;
         height: 96px;
         margin: 0;
         line-height: 24px;
@@ -153,7 +154,7 @@
           line-height: 29px;
         }
         &--msg {
-          width: 423px;
+          max-width: 423px;
           margin-bottom: 34px;
           &--desktop {
             width: 412px;
