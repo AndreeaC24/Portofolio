@@ -86,7 +86,6 @@
       }
       &--msg {
         max-width: 339px;
-        height: 96px;
         margin: 0;
         line-height: 24px;
         &--desktop {
@@ -169,9 +168,9 @@
   .work__list__item {
     align-items: flex-start;
     &--msg {
-      width: var(--width-max);
+      max-width: var(--width-max);
       &--desktop {
-        width: 650px;
+        max-width: 650px;
       }
     }
   }

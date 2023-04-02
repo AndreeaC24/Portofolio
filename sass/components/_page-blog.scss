@@ -48,7 +48,6 @@
       &--message {
         line-height: 24px;
         max-width: 340px;
-        height: 96px;
         margin: 0;
       }
     }
@@ -63,7 +62,6 @@
     &__list {
       justify-content: flex-start;
       align-items: flex-start;
-      // padding-bottom: 53px;
       gap: 32px;
       &__item {
         @include column-flex;
@@ -83,8 +81,7 @@
           }
         }
         &--message {
-          height: 43px;
-          width: 615px;
+          max-width: 615px;
         }
       }
     }
@@ -92,9 +89,9 @@
 }
 @media (min-width: 1200px) {
   .blog__list__item {
-    width: var(--width-max);
+    max-width: var(--width-max);
     &--message {
-      width: 882px;
+      max-width: 882px;
     }
   }
 }
