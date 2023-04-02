@@ -47,8 +47,8 @@
       }
       &--message {
         line-height: 24px;
-        width: 340px;
-        height: 96px;
+        max-width: 340px;
+        max-height: 96px;
         margin: 0;
       }
     }
